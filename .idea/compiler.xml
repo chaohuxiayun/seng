@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="door" />
+        <module name="zuul" />
+        <module name="permission" />
+        <module name="image" />
+        <module name="server" />
+        <module name="untitled" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="door" target="1.8" />
+      <module name="image" target="1.8" />
+      <module name="permission" target="1.8" />
+      <module name="seng" target="1.8" />
+      <module name="server" target="1.8" />
+      <module name="untitled" target="1.8" />
+      <module name="zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="door" options="-parameters" />
+      <module name="image" options="-parameters" />
+      <module name="permission" options="-parameters" />
+      <module name="server" options="-parameters" />
+      <module name="untitled" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

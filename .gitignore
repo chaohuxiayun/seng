@@ -1,0 +1,5 @@
+# Project exclude paths
+/door/target/
+/image/target/
+/permission/target/
+/zuul/target/
